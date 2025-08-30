@@ -1,0 +1,11 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "streamlit run chatbot.py --server.port $PORT --server.address 0.0.0.0"
+
+[build.nixpacksConfig]
+providers = ["python"]
+
+[build.nixpacksConfig.python]
+pythonVersion = "3.11"
