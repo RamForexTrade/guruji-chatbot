@@ -1,0 +1,14 @@
+# Essential packages - let pip resolve compatible versions
+streamlit
+langchain
+langchain-openai
+langchain-groq
+langchain-community
+chromadb
+python-dotenv
+pyyaml
+tiktoken
+openai
+groq
+pandas
+numpy
