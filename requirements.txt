@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-openai
+langchain-groq
+langchain-community
+chromadb
+python-dotenv
+pyyaml
+tiktoken
+openai>=1.10.0
+groq
+pandas
+numpy
